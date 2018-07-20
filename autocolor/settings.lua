@@ -1,11 +1,18 @@
 data:extend({
     {
+        type = "bool-setting",
+        name = "autocolor_on",
+        setting_type = "runtime-per-user",
+        default_value = false,
+        order = "a"
+    },
+    {
         type = "double-setting",
         name = "autocolor_r",
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 221.5,
+        default_value = 221.59500449896, -- As is the default color
         order = "b"
     },
     {
@@ -14,7 +21,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 127.5,
+        default_value = 127.5, -- As is the default color
         order = "c"
     },
     {
@@ -23,7 +30,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 33.1,
+        default_value = 33.14999874065, -- As is the default color
         order = "d"
     },
     {
@@ -32,14 +39,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 127.5,
+        default_value = 127, -- As is the default color
         order = "e"
-    },
-    {
-        type = "bool-setting",
-        name = "autocolor_on",
-        setting_type = "runtime-per-user",
-        default_value = false,
-        order = "a"
     },
 })
