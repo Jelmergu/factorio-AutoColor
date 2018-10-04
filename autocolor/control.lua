@@ -1,12 +1,12 @@
 
 function setColor(event)
-    local pset = settings.player
+    local pid = event.player_index
+    local pset = settings.get_player_settings(pid)
 
     if pset.autocolor_on.value ~= true then
         return;
     end
 
-    local pid = event.player_index
     local color = {}
 
     color.r = pset.autocolor_r.value / 255
@@ -21,4 +21,5 @@ end
 
 script.on_event(defines.events.on_player_created, setColor)
 script.on_event(defines.events.on_player_joined_game, setColor)
+
 
