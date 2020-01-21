@@ -1,11 +1,11 @@
 {
     "name": "autocolor",
-    "version": "0.17.0",
+    "version": "0.18.0",
     "title": "AutoColor",
     "author": "Jelmergu",
     "contact": "",
     "homepage": "",
-    "factorio_version": "0.17",
+    "factorio_version": "0.18",
     "dependencies": ["base >= 0.16"],
     "description": "Join a game with your suit in your favorite color"
 }
