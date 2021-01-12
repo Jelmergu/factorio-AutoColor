@@ -12,7 +12,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 221.59500449896, -- As is the default color
+        default_value = 0, -- As is the default color
         order = "b"
     },
     {
@@ -21,7 +21,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 127.5, -- As is the default color
+        default_value = 0, -- As is the default color
         order = "c"
     },
     {
@@ -30,7 +30,7 @@ data:extend({
         setting_type = "runtime-per-user",
         minimum_value = 0,
         maximum_value = 255,
-        default_value = 33.14999874065, -- As is the default color
+        default_value = 0, -- As is the default color
         order = "d"
     },
     {
